@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key='ENTER YOUR CHAT API HERE')
+client = OpenAI(api_key='ENTER YOUR CHAT API KEY HERE')
 
 def chat(text):
 	completion = client.chat.completions.create(
